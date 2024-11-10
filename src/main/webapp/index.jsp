@@ -131,7 +131,6 @@
         color: #fff;
       }
 
-      /* Footer Styling */
       footer {
         padding: 25px;
         text-align: center;
@@ -165,7 +164,7 @@
       <div class="header-profile">
         <span class="profile-name">Suchith K</span>
         <img
-          src="src/main/webapp/images/logo.webp"
+          src="./images/logo.webp"
           alt="Profile Picture"
           class="profile-pic"
         />
