@@ -165,7 +165,7 @@
       <div class="header-profile">
         <span class="profile-name">Suchith K</span>
         <img
-          src="./images/logo.webp"
+          src="src/main/webapp/images/logo.webp"
           alt="Profile Picture"
           class="profile-pic"
         />
