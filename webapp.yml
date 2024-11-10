@@ -1,0 +1,13 @@
+---
+
+- name: Ansible
+  hosts: demo
+  user: ansible
+  become: yes
+  connection: ssh
+  tasks:
+    - name: Copying to Tomcat
+      copy:
+        src: /home/ansible/webapp-docker-deployment.war
+        dest: /root/apache-tomcat-9.0.97/webapps
+
