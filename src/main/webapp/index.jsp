@@ -8,14 +8,13 @@
       DockerHub, Ansible
     </title>
     <style>
-      /* General Reset */
+      
       * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
       }
 
-      /* Body Styling */
       body {
         font-family: 'Times New Roman', Times, serif;
         background-color: #eaf2f8; /* Light blue background */
@@ -25,7 +24,6 @@
         min-height: 100vh;
       }
 
-      /* Header Styling */
       header {
         background-color: #2980b9; /* Bright blue */
         color: #fff;
@@ -38,7 +36,7 @@
 
       header h1 {
         font-size: 26px;
-        color: #d4eaf1; /* Soft blue */
+        color: #d4eaf1; 
         font-family: 'Times New Roman', Times, serif;
       }
 
@@ -61,7 +59,6 @@
         font-family: 'Times New Roman', Times, serif;
       }
 
-      /* Main Content Styling */
       main {
         display: flex;
         justify-content: space-between;
@@ -78,7 +75,7 @@
       .right-content p {
         font-size: 16px;
         line-height: 1.7;
-        color: #34495e; /* Dark slate */
+        color: #34495e; 
         font-family: 'Times New Roman', Times, serif;
       }
 
@@ -168,7 +165,7 @@
       <div class="header-profile">
         <span class="profile-name">Suchith K</span>
         <img
-          src="images/logo.webp"
+          src="./images/logo.webp"
           alt="Profile Picture"
           class="profile-pic"
         />
@@ -179,7 +176,7 @@
       <div class="left-content">
         <h2 class="section-title">Architecture</h2>
         <img
-          src="images/ansible.jpg"
+          src="./images/ansible.jpg"
           alt="Project Architecture Diagram"
           class="architecture-img"
         />
